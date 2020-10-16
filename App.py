@@ -4,6 +4,7 @@ connection = happybase.Connection(table_prefix="bd03:",table_prefix_separator=b'
 
 messages = connection.table('Messages')
 users = connection.table('Users')
+movies=connection.table('Movies')
 
 
 #ENTRADA A LA APLICACIÓN
@@ -15,16 +16,16 @@ users = connection.table('Users')
 # Si son réplicas, indica el mensaje original y el usuario que lo publicó. 
 # Si son mensajes re-enviados, indica el usuario que publicó el mensaje original.
 
-scan_filter = "RowFilter(=,'binaryprefix:jessica@gmail.com')"
+#scan_filter = "RowFilter(=,'binaryprefix:jessica@gmail.com')"
 
-for key, data in messages.scan(filter=scan_filter,reverse=True,limit=10):
-    print(key,data)
+#for key, data in messages.scan(filter=scan_filter,reverse=True,limit=10):
+    #print(key,data)
 
     #string=key.decode("utf-8") 
     #fechastring=string[-19:]
     #fechadate=datetime.strptime(fechastring, '%Y-%m-%d %H:%M:%S')
     #print("Fecha es: ",fechadate)
-    print ("---------")
+    #print ("---------")
 
 #---------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------
