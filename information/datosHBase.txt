@@ -1,0 +1,154 @@
+
+
+-- Agregando los datos de un usuario (12 usuarios)
+
+put 'bd03:Users','jessica@gmail.com', 'General:Country', 'Colombia'
+put 'bd03:Users','jessica@gmail.com', 'General:City', 'Cali'
+put 'bd03:Users','jessica@gmail.com', 'General:Profile_type', 'public'
+put 'bd03:Users','jessica@gmail.com', 'Followers:diego@outlook.es', '2020-08-09 10:34:29'
+put 'bd03:Users','jessica@gmail.com', 'Followers:efren@javerianacali.edu.co', '2020-05-02 01:21:19'
+put 'bd03:Users','jessica@gmail.com', 'Followers:kfaley9@yahoo.com', '2019-07-15 04:52:42'
+put 'bd03:Users','jessica@gmail.com', 'Following:kfaley9@yahoo.com', '2019-07-15 04:52:42'
+put 'bd03:Users','jessica@gmail.com', 'Following:efren@javerianacali.edu.co', '2019-04-28 06:19:21'
+put 'bd03:Users','jessica@gmail.com', 'Following:diego@outlook.es', '2019-07-15 04:52:42'
+
+
+put 'bd03:Users','jessica@gmail.com', 'General:Country', 'Mexico'
+put 'bd03:Users','jessica@gmail.com', 'General:Country', 'Argentina'
+put 'bd03:Users','jessica@gmail.com', 'General:Country', 'Colombia'
+
+put 'bd03:Users','diego@outlook.es', 'General:Country', 'Colombia'
+put 'bd03:Users','diego@outlook.es', 'General:City', 'Cali'
+put 'bd03:Users','diego@outlook.es', 'General:Profile_type', 'public'
+put 'bd03:Users','diego@outlook.es', 'Followers:jessica@gmail.com', '2019-11-03 16:20:29'
+put 'bd03:Users','diego@outlook.es', 'Followers:efren@javerianacali.edu.co', '2020-09-24 21:05:19'
+put 'bd03:Users','diego@outlook.es', 'Following:jessica@gmail.com', '2019-10-12 07:32:59'
+
+
+put 'bd03:Users','efren@javerianacali.edu.co', 'General:Country', 'Colombia'
+put 'bd03:Users','efren@javerianacali.edu.co', 'General:City', 'Medellin'
+put 'bd03:Users','efren@javerianacali.edu.co', 'General:Profile_type', 'public'
+put 'bd03:Users','efren@javerianacali.edu.co', 'Followers:jessica@gmail.com', '2020-08-08 09:47:55'
+put 'bd03:Users','efren@javerianacali.edu.co', 'Followers:diego@outlook.es', '2020-08-08 09:47:55'
+put 'bd03:Users','efren@javerianacali.edu.co', 'Followers:thelstrip0@nasa.gov', '2019-09-09 21:14:51'
+put 'bd03:Users','efren@javerianacali.edu.co', 'Following:diego@outlook.es', '2020-08-08 09:47:55'
+put 'bd03:Users','efren@javerianacali.edu.co', 'Following:jessica@gmail.com', '2019-04-28 06:19:21'
+
+
+put 'bd03:Users','thelstrip0@nasa.gov', 'General:Country', 'Costa Rica'
+put 'bd03:Users','thelstrip0@nasa.gov', 'General:City', 'San Isidro'
+put 'bd03:Users','thelstrip0@nasa.gov', 'General:Profile_type', 'public'
+put 'bd03:Users','thelstrip0@nasa.gov', 'Followers:blivzey1@squarespace.com', '2020-05-02 01:21:19'
+put 'bd03:Users','thelstrip0@nasa.gov', 'Following:rmain3@ihg.com', '2020-08-08 09:47:55'
+put 'bd03:Users','thelstrip0@nasa.gov', 'Following:chully9@storify.com', '2019-08-03 02:16:50'
+put 'bd03:Users','thelstrip0@nasa.gov', 'Following:rmain3@ihg.com', '2019-04-28 06:19:21'
+
+
+put 'bd03:Users','blivzey1@squarespace.com', 'General:Country', 'Brazil'
+put 'bd03:Users','blivzey1@squarespace.com', 'General:City', 'Iracemápolis'
+put 'bd03:Users','blivzey1@squarespace.com', 'General:Profile_type', 'private'
+put 'bd03:Users','blivzey1@squarespace.com', 'Following:rmain3@ihg.com', '2019-09-23 13:40:29'
+put 'bd03:Users','blivzey1@squarespace.com', 'Following:thelstrip0@nasa.gov', '2020-05-02 01:21:19'
+put 'bd03:Users','blivzey1@squarespace.com', 'Following:darmes9@ifeng.com', '2019-07-15 17:15:59'
+put 'bd03:Users','blivzey1@squarespace.com', 'Following:wtiplingb@google.es', '2020-05-02 01:21:19'
+
+put 'bd03:Users','rmain3@ihg.com', 'General:Country', '	China'
+put 'bd03:Users','rmain3@ihg.com', 'General:City', 'Pengfang'
+put 'bd03:Users','rmain3@ihg.com', 'General:Profile_type', 'public'
+put 'bd03:Users','rmain3@ihg.com', 'Followers:', '2019-09-18 15:24:04'
+put 'bd03:Users','rmain3@ihg.com', 'Followers:', '2020-05-02 01:21:19'
+put 'bd03:Users','rmain3@ihg.com', 'Followers:', '2020-10-03 20:50:29'
+
+put 'bd03:Users','gokelleher8@unc.edu', 'General:Country', 'Peru'
+put 'bd03:Users','gokelleher8@unc.edu', 'General:City', 'Iberia'
+put 'bd03:Users','gokelleher8@unc.edu', 'General:Profile_type', 'private'
+put 'bd03:Users','gokelleher8@unc.edu', 'Followers:rmain3@ihg.com', '2019-01-28 14:54:09'
+put 'bd03:Users','gokelleher8@unc.edu', 'Followers:darmes9@ifeng.com', '2020-10-03 20:50:29'
+put 'bd03:Users','gokelleher8@unc.edu', 'Followers:nfrusher3@ovh.net', '2019-08-18 16:42:21'
+put 'bd03:Users','gokelleher8@unc.edu', 'Following:ocarine5@mlb.com', '2020-07-28 07:15:23'
+
+put 'bd03:Users','darmes9@ifeng.com', 'General:Country', 'Brazil'
+put 'bd03:Users','darmes9@ifeng.com', 'General:City', 'Vargem Grande'
+put 'bd03:Users','darmes9@ifeng.com', 'General:Profile_type', 'public'
+put 'bd03:Users','darmes9@ifeng.com', 'Followers:blivzey1@squarespace.com', '2019-07-15 17:15:59'
+put 'bd03:Users','darmes9@ifeng.com', 'Following:gokelleher8@unc.edu', '2020-10-03 20:50:29'
+
+put 'bd03:Users','wtiplingb@google.es', 'General:Country', 'Ecuador'
+put 'bd03:Users','wtiplingb@google.es', 'General:City', 'Catamayo'
+put 'bd03:Users','wtiplingb@google.es', 'General:Profile_type', 'public'
+put 'bd03:Users','wtiplingb@google.es', 'Followers:blivzey1@squarespace.com', '2020-05-02 01:21:19'
+put 'bd03:Users','wtiplingb@google.es', 'Followers:kfaley9@yahoo.com', '2019-08-04 00:23:03'
+put 'bd03:Users','wtiplingb@google.es', 'Following:ocarine5@mlb.com', '2020-06-15 10:08:39'
+
+
+put 'bd03:Users','ocarine5@mlb.com', 'General:Country', 'United States'
+put 'bd03:Users','ocarine5@mlb.com', 'General:City', 'Los Angeles'
+put 'bd03:Users','ocarine5@mlb.com', 'General:Profile_type', 'public'
+put 'bd03:Users','ocarine5@mlb.com', 'Followers:gokelleher8@unc.edu', '2020-07-28 07:15:23'
+put 'bd03:Users','ocarine5@mlb.com', 'Followers:wtiplingb@google.es', '2020-06-15 10:08:39'
+put 'bd03:Users','ocarine5@mlb.com', 'Followers:nfrusher3@ovh.net', '2019-07-12 17:47:16'
+put 'bd03:Users','ocarine5@mlb.com', 'Following:kfaley9@yahoo.com', '2019-07-24 04:11:04'
+
+
+put 'bd03:Users','nfrusher3@ovh.net', 'General:Country', 'United States'
+put 'bd03:Users','nfrusher3@ovh.net', 'General:City', 'Boston'
+put 'bd03:Users','nfrusher3@ovh.net', 'General:Profile_type', 'private'
+put 'bd03:Users','nfrusher3@ovh.net', 'Following:nfrusher3@ovh.net', '2019-07-12 17:47:16'
+
+
+put 'bd03:Users','kfaley9@yahoo.com', 'General:Country', 'United States'
+put 'bd03:Users','kfaley9@yahoo.com', 'General:City', 'Chicago'
+put 'bd03:Users','kfaley9@yahoo.com', 'General:Profile_type', 'private'
+put 'bd03:Users','kfaley9@yahoo.com', 'Followers:ocarine5@mlb.com', '2019-07-24 04:11:04'
+put 'bd03:Users','kfaley9@yahoo.com', 'Following:wtiplingb@google.es', '2019-08-04 00:23:03'
+
+
+-- Agregando los datos de mensajes 
+
+put 'bd03:Messages',['jessica@gmail.com','2020-03-27 01:26:55'], 'Tweet:content','prueba con la palabra Colombia'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-27 01:26:55'], 'Retweet:diego@outlook.es','2020-09-18 05:16:10'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-27 01:26:55'], 'Retweet:efren@javerianacali.edu.co','2020-05-08 04:49:45'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-27 01:26:55'], 'Response:diego@outlook.es|content','hola'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-27 01:26:55'], 'Response:diego@outlook.es|date','2020-05-09 04:49:45'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-27 01:26:55'], 'Response:efren@javerianacali.edu.co|content','feliz viernes'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-27 01:26:55'], 'Response:efren@javerianacali.edu.co|date','2020-05-10 04:49:45'
+
+
+put 'bd03:Messages',['diego@outlook.es','2020-03-28 01:26:55'], 'Tweet:content','hola soy diego'
+put 'bd03:Messages',['diego@outlook.es','2020-03-28 01:26:55'], 'Retweet:efren@javerianacali.edu.co','2020-05-08 04:49:45'
+put 'bd03:Messages',['diego@outlook.es','2020-03-28 01:26:55'], 'Response:jessica@gmail.com|content','hola como estas'
+put 'bd03:Messages',['diego@outlook.es','2020-03-28 01:26:55'], 'Response:jessica@gmail.com|date','2020-05-09 04:49:45'
+put 'bd03:Messages',['diego@outlook.es','2020-03-28 01:26:55'], 'Response:efren@javerianacali.edu.co|content','feliz semana santa'
+put 'bd03:Messages',['diego@outlook.es','2020-03-28 01:26:55'], 'Response:efren@javerianacali.edu.co|date','2020-05-10 04:49:45'
+
+
+put 'bd03:Messages',['diego@outlook.es','2020-05-29 02:27:55'], 'Tweet:content','soy diego y hoy ingrese a http://www.youtube.com/ para ver un tutorial, lo recomiendo'
+put 'bd03:Messages',['diego@outlook.es','2020-05-29 02:27:55'], 'Retweet:efren@javerianacali.edu.co','2020-05-29 09:32:45'
+put 'bd03:Messages',['diego@outlook.es','2020-05-29 02:27:55'], 'Response:jessica@gmail.com|content','excelente tutorial'
+put 'bd03:Messages',['diego@outlook.es','2020-05-29 02:27:55'], 'Response:jessica@gmail.com|date','2020-05-29 04:49:45'
+put 'bd03:Messages',['diego@outlook.es','2020-05-29 02:27:55'], 'Response:efren@javerianacali.edu.co|content','gracias por la informacion'
+put 'bd03:Messages',['diego@outlook.es','2020-05-29 02:27:55'], 'Response:efren@javerianacali.edu.co|date','2020-05-29 09:30:45'
+
+
+put 'bd03:Messages',['ocarine5@mlb.com','2020-07-16 05:06:10'], 'Tweet:content','find me on https://www.instagram.com'
+put 'bd03:Messages',['ocarine5@mlb.com','2020-07-16 05:06:10'], 'Response:kfaley9@yahoo.com|content','I will add you'
+put 'bd03:Messages',['ocarine5@mlb.com','2020-07-16 05:06:10'], 'Response:kfaley9@yahoo.com|date','2020-08-21 15:00:14'
+
+
+
+put 'bd03:Messages',['jessica@gmail.com','2020-03-02 22:28:35'], 'Tweet:content','a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-02 22:28:35'], 'Retweet:thelstrip0@nasa.gov','2020-07-25 14:05:56'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-02 22:28:35'], 'Retweet:wtiplingb@google.es','2020-07-25 14:05:56'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-02 22:28:35'], 'Response:wtiplingb@google.es|content','commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-02 22:28:35'], 'Response:wtiplingb@google.es|date','2020-07-19 15:19:30'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-02 22:28:35'], 'Response:kfaley9@yahoo.com|content','fusce congue diam id ornare imperdiet sapien urna pretium nisl ut'
+put 'bd03:Messages',['jessica@gmail.com','2020-03-02 22:28:35'], 'Response:kfaley9@yahoo.com|date','2020-08-13 11:35:29'
+
+
+put 'bd03:Messages',['jessica@gmail.com','2019-03-02 22:28:35'], 'Tweet:content','est donec odio justo sollicitudin ut suscipit a feugiat et'
+put 'bd03:Messages',['jessica@gmail.com','2019-03-02 22:28:35'], 'Retweet:thelstrip0@nasa.gov','2019-07-25 14:05:56'
+put 'bd03:Messages',['jessica@gmail.com','2019-03-02 22:28:35'], 'Retweet:wtiplingb@google.es','2019-07-25 14:05:56'
+put 'bd03:Messages',['jessica@gmail.com','2019-03-02 22:28:35'], 'Response:wtiplingb@google.es|content','commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget'
+put 'bd03:Messages',['jessica@gmail.com','2019-03-02 22:28:35'], 'Response:wtiplingb@google.es|date','2019-07-19 15:19:30'
+put 'bd03:Messages',['jessica@gmail.com','2019-03-02 22:28:35'], 'Response:thelstrip0@nasa.gov|content','fusce congue diam id ornare imperdiet sapien urna pretium nisl ut'
+put 'bd03:Messages',['jessica@gmail.com','2019-03-02 22:28:35'], 'Response:thelstrip0@nasa.gov|date','2019-08-13 11:35:29'
