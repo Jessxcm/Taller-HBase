@@ -1,1 +1,2 @@
-# Taller-HBase
+# Taller HBase
+Queries in python using HappyBase
